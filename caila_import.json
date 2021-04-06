@@ -1,0 +1,51 @@
+{
+  "project" : {
+    "id" : "code_duckling_date-707-ijn",
+    "name" : "code_duckling_date-707-ijn",
+    "folder" : "/jaicp"
+  },
+  "settings" : {
+    "language" : "ru",
+    "spellingCorrection" : false,
+    "classificationAlgorithm" : "sts",
+    "timezone" : "Europe/Moscow",
+    "extendedSettings" : {
+      "tokenizerEngine" : "mystem"
+    },
+    "shared" : false
+  },
+  "intents" : [ {
+    "id" : 74548,
+    "path" : "/дата",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "назвать дату"
+    } ],
+    "patterns" : [ ],
+    "slots" : [ {
+      "name" : "date",
+      "entity" : "duckling.date",
+      "required" : true,
+      "prompts" : [ "Назовите дату" ]
+    } ]
+  }, {
+    "id" : 74052,
+    "path" : "/пока",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "пока"
+    } ]
+  }, {
+    "id" : 74053,
+    "path" : "/привет",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "привет"
+    } ]
+  } ],
+  "entities" : [ ],
+  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url", "duckling.date" ]
+}
