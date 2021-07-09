@@ -1,21 +1,18 @@
 {
   "project" : {
-    "id" : "code_duckling_date-707-ijn",
-    "name" : "code_duckling_date-707-ijn",
+    "id" : "test_123_from_git-3737-TWj",
+    "name" : "test_123_from_git-3737-TWj",
     "folder" : "/jaicp"
   },
   "settings" : {
     "language" : "ru",
     "spellingCorrection" : false,
     "classificationAlgorithm" : "sts",
-    "timezone" : "Europe/Moscow",
-    "extendedSettings" : {
-      "tokenizerEngine" : "mystem"
-    },
+    "timezone" : "UTC",
     "shared" : false
   },
   "intents" : [ {
-    "id" : 74548,
+    "id" : 50005,
     "path" : "/дата",
     "enabled" : true,
     "shared" : false,
@@ -27,10 +24,11 @@
       "name" : "date",
       "entity" : "duckling.date",
       "required" : true,
-      "prompts" : [ "Назовите дату" ]
+      "prompts" : [ "Назовите дату" ],
+      "array" : false
     } ]
   }, {
-    "id" : 74052,
+    "id" : 50006,
     "path" : "/пока",
     "enabled" : true,
     "shared" : false,
@@ -38,7 +36,7 @@
       "text" : "пока"
     } ]
   }, {
-    "id" : 74053,
+    "id" : 50007,
     "path" : "/привет",
     "enabled" : true,
     "shared" : false,
